@@ -55,4 +55,4 @@ def init(game,coins):
     pid = get_pid64()
     offsets = get_offsets(game)
     address = calibrate(coins,offsets,pid)
-    return (pid,offsets)
+    return (pid,offsets,address)
